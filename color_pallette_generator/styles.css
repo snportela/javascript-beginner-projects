@@ -26,9 +26,6 @@
   box-sizing: border-box;
 }
 
-html {
-  height: 100%;
-}
 
 body {
   height: 100%;
@@ -50,7 +47,7 @@ nav {
 .nav-center {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 1% 10%;
   
   
@@ -58,7 +55,7 @@ nav {
 
 main {
   display: flex;
-  min-height: 90%;
+  min-height: 100vh;
 }
 
 .container { 
@@ -83,6 +80,10 @@ main {
 
   main {
     flex-direction: column;
+  }
+
+  .container{
+    border-bottom: 1px solid var(--navy);
   }
   
 
